@@ -1,0 +1,18 @@
+IMPERIO · PÁGINA DE TRANSFERENCIAS
+
+Incluye la versión final, datos bancarios, logo y animación del rey con fuegos artificiales.
+
+PUBLICAR EN GITHUB PAGES
+1. Descomprime el ZIP.
+2. Sube index.html, styles.css, app.js, datos.js y la carpeta assets a la raíz del repositorio. Mantén la carpeta assets con su nombre y contenido.
+3. En Settings > Pages, selecciona Deploy from a branch, la rama main y la carpeta / (root). Guarda.
+4. Abre el enlace HTTPS que te entregue GitHub Pages.
+
+PUBLICAR EN HOSTING
+Sube esos mismos archivos y la carpeta assets al directorio público de tu dominio, normalmente public_html. index.html debe quedar directamente dentro de ese directorio.
+
+CAMBIAR DATOS BANCARIOS
+Edita datos.js. Es la única fuente de datos para mostrar y copiar. Mantén número de cuenta y RUT entre comillas.
+
+La web no requiere instalación, compilación ni base de datos. El castillo, el rey y los fuegos artificiales están incluidos en el código.
+Usa el sitio publicado mediante HTTPS para probar el portapapeles. El doble clic en index.html sirve para revisar la apariencia, pero copiar puede depender del navegador en archivos locales.
